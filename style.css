@@ -8,3 +8,26 @@ h1 {
     color: lightgreen;
     text-align: center;
 }
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+input, button {
+    background-color: black;
+    border: 1px dashed lightgreen;    
+    padding: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: lightgreen;
+}
+
+input:focus-visible {
+    outline: 0;
+}
+
+button:hover {
+    background-color: lightgreen;
+    color: black;
+    border: 1px dotted white;
+}
