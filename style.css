@@ -14,12 +14,19 @@ div {
     justify-content: center;
 }
 
-input, button {
+input, button, p {
     background-color: black;
-    border: 1px dashed lightgreen;    
     padding: 1rem;
     font-family: 'Courier New', Courier, monospace;
     color: lightgreen;
+}
+
+p {
+    text-align: center;
+}
+
+input, button {
+    border: 1px dashed lightgreen;    
 }
 
 input:focus-visible {
